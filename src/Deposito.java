@@ -36,6 +36,6 @@ public class Deposito extends Rekening implements BerBunga{
 
         //Process finished with exit code 1
 
-        throw new UnsupportedOperationException("Deposito tidak bisa ditarik");
+        return false;
     }
 }
